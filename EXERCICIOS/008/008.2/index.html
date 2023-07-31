@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais Tipos de formatação</title>
+    <style>
+        code {
+            color: black;
+        }
+    </style>
+    <style>
+        blockquote {
+            background-color: white;
+        }
+    </style>
+    <!-- continuando a aula 8 e 9 kakakakaka -->
+</head>
+<body>
+<h1>(Mais) Outras Formatações</h1>    
+<h2>Código-Fonte</h2>
+<p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem java-script</p>
+<pre>
+    <code>
+num = int(input('digite um numero'))
+if num % 2 == 0:
+    print (f' numero é par')
+else:
+    print(f'o numero é impar')
+print ('Fim do programa')
+    </code>
+</pre>
+<!-- A tag code deixa a fonte mono-espaçada!(mas não a organiza com endentações, para isso usar a tag PRE) -->
+<h2>Citações</h2>
+<p>Como diria um pai de um amigo : <q>o computador é um burro muito rapido</q></p>
+<h2>Citações Completas</h2>
+<p>Já dizia um filosofo famos que eu nao sei quem é so peguei a fala no google:
+    <blockquote cite="https://www.pensador.com/frases/">
+        Nunca deixe ninguém te dizer que não pode fazer alguma coisa. Se você tem um sonho tem que correr atrás dele. As pessoas não conseguem vencer e dizem que você também não vai vencer. Se você quer uma coisa corre atrás.
+    </blockquote>
+</p>
+<h2>Abreviações</h2>
+<p>Estou estudando <abbr title="Hyper Text MarkUp Language">HTML</abbr> e <abbr title="Cascate Style Sheets">CSS</abbr></p>
+<h2>Textos Invertidos</h2>
+<p><bdo dir="rtl">Estou aprendendo a criar coisas em html</bdo>// utilizar a tag bdo da direita pra esquerda inverte os textos (bem inutil)</p>
+</body>
+</html>

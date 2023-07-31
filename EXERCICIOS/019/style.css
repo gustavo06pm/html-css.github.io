@@ -1,0 +1,29 @@
+body{
+    background-color: #00ffff42;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Principal{
+    color: #0116169a;
+    background-color: aliceblue;
+    padding: 2%;
+}
+.titulo{
+    color: rgba(10, 61, 61, 0.993);
+    background-color: aliceblue;
+}
+.ini{
+    color: rgb(63, 196, 30);
+    font-weight: bold;
+
+}
+.int{
+    color: rgb(185, 196, 30);
+    font-weight: bold;
+}
+.ava{
+    color: rgb(196, 30, 30);
+    font-weight: bold;
+}
+.citlatim{
+    font-style: italic;
+}

@@ -1,0 +1,12 @@
+body{
+    font-family: 'Love Story';
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+@font-face {
+    font-family:'Love Story' ;
+    src: url(love\ story\ ttf.ttf);
+}

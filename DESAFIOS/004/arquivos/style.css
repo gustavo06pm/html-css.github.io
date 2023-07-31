@@ -1,0 +1,99 @@
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+  }
+  
+  body {
+    background-color: #DFE6FB;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  header {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  main {
+    background-color: #48557A;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px; /* Adicione um espaçamento interno para melhorar a aparência */
+  }
+  
+  nav {
+    text-align: left;
+    font-size: 12px;
+    font-weight: medium;
+    margin-left: 15px;
+  }
+  
+  span {
+    margin-right: 15px;
+  }
+  
+  span:hover {
+    text-decoration: underline;
+    background-color: #687BAD;
+    border-radius: 25%;
+  }
+  
+  #corpo {
+    /* Remover "position: absolute;" */
+    /* margin-top: 125px; Remover essa propriedade */
+  
+    /* Centralizar o conteúdo no centro da página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use min-height para garantir que o conteúdo ocupe pelo menos toda a altura da viewport */
+  }
+  
+  #conteudo {
+    max-width: 800px;
+    text-align: justify;
+    background-color: white;
+    padding: 20px; /* Adicione um espaçamento interno para melhorar a aparência */
+    border-radius: 10px; /* Adicione bordas arredondadas para simular a folha */
+  }
+  
+  H2, h3 {
+    font-family: android;
+    background-image: linear-gradient(to right, #687BAD, white);
+    width: 50%;
+  }
+  
+  #extras {
+    background-color: #687BAD;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 0px 2px;
+  }
+  
+  .conti {
+    display: inline-block;
+  }
+  
+  .aprender {
+    color: white;
+    background-color: #48557A;
+  }
+  
+  #androidhis {
+    color: black;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #48557A;
+    color: white;
+    text-align: center;
+  }
+  #video{
+    border-radius: 10px;
+    border: 8px solid #48557A;
+  }
+  

@@ -1,0 +1,20 @@
+h1{
+    background-color: lightgrey;
+    height: 300px;
+    width: 300px;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: blueviolet;
+/* ShortHand: border:  width/style/color */
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+/* ShortHand: Padding: cima direita baixo esquerda (Se todas as medidas forem iguais, basta colocar uma vez só*/
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    /* shorthand: Margin: cima direita baixo esquerda */
+}

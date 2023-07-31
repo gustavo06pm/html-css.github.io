@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(217, 218, 245);
+}
+h2{
+    color: rgba(4, 59, 236, 0.226);
+    font-style: oblique;
+}
+p{
+    font: initial;
+    text-align: justify;
+}
+h1{
+    color: rgb(10, 120, 124);
+    background-color: rgb(58, 133, 108);
+}
