@@ -14,20 +14,18 @@ html, body{
     min-height: 100vh;
 }
 header{
-    
     padding: 50px;
     text-align: center;
     background-color: #000;
     color: white;
 }
 header h1{
-    font-variant: small-caps;
+   font-variant: small-caps;
     font-family: 'Autor';
     font-size: 192px;
     font-weight: bold;
 }
 header p, a{
-    font-variant: small-caps;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
@@ -60,6 +58,7 @@ section.imagem{
     background-size: cover;
     background-image: url(Imagens/background001.jpg);
     background-attachment: fixed;
+
 }
 #imagem02{
     background-image: url(Imagens/background002.jpg);
@@ -68,7 +67,6 @@ section.imagem{
 section.imagem p{
     padding-left: 50px;
     background-color: #00000042;
-    width: auto;
     width: 800px
 }
 footer{
