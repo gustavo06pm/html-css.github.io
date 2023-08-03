@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Poema';
+    src: url(Fontes/Sriracha-Regular.ttf);
+}
+@font-face {
+    font-family: 'Autor';
+    src: url(Fontes/PassionOne-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    min-height: 100vh;
+}
+header{
+    
+    padding: 50px;
+    text-align: center;
+    background-color: #000;
+    color: white;
+}
+header h1{
+    font-variant: small-caps;
+    font-family: 'Autor';
+    font-size: 192px;
+    font-weight: bold;
+}
+header p, a{
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+header a:hover{
+    text-decoration: underline;
+}
+main{
+    font-family: 'poema';
+    font-size: 67px;
+    padding-top: 105px;
+    
+}
+section.normal{
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+section.imagem{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #000000;
+    color: #fff;
+    height: 100vh;
+}
+#imagem01{
+    background-size: cover;
+    background-image: url(Imagens/background001.jpg);
+    background-attachment: fixed;
+}
+#imagem02{
+    background-image: url(Imagens/background002.jpg);
+    background-attachment: fixed;
+}
+section.imagem p{
+    padding-left: 50px;
+    background-color: #00000042;
+    width: auto;
+    width: 800px
+}
+footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+footer a{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: none;
+}
