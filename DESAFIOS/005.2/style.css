@@ -77,3 +77,9 @@ section.imagem#img01{
 section.imagem#img02{
     background-image: url(../005/Imagens/background002.jpg);
 }
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
