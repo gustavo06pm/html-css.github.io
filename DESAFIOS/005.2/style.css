@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Cordel' ;
+    src: url(../005/Fontes/PassionOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poema';
+    src: url(../005/Fontes/Sriracha-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --fontepoema: 'Poema', 'Sans-serif';
+    --fontecordel: 'Cordel', 'Sans-Serif';
+}
+body{
+    font-size: 1em;
+
+}
+main{
+    padding-left: 1.5vw;
+}
+header{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+header> h1{
+    font-family: var(--fontecordel);
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+header p, a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    font-size: 1em;
+    
+}
+header a, footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section.normal, section.imagem{
+    font-family: var(--fontepoema);
+    font-size: 3.5vw;
+    line-height: 2em;
+    
+}
+section p{
+    padding-bottom: 2em;
+}
+section.imagem{
+    background-color: #000;
+    color: #fff;
+    padding-top:12vh ;
+    padding-bottom:12vh ;
+    text-shadow: 1px 1px 1px black;
+    background-attachment: fixed;
+}
+section.imagem>p{
+    display: inline-block;
+    background-color: #00000094;
+    
+}
+section.imagem#img01{
+    background-image: url(../005/Imagens/background001.jpg);
+    background-position: center center;
+}
+section.imagem#img02{
+    background-image: url(../005/Imagens/background002.jpg);
+}
